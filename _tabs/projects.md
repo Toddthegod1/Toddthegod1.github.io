@@ -22,3 +22,7 @@ order: 2
 - **Skills:** R tidyverse, Python pandas, Jupyter analysis, viz with matplotlib.
 - **Highlights:** Data cleaning pipeline, exploratory analysis, storytelling.
 [Read more →](/projects/goodreads/)
+
+### 3 VM Project – Personal Finance Tracker  
+A modular personal-finance app deployed with three VMs.  
+[Read more →](/projects/3vmprojectpublic/) · [GitHub](https://github.com/Toddthegod1/3VMProjectPublic)
