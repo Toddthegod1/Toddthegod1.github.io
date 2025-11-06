@@ -10,5 +10,5 @@ permalink: /projects/carbon-tracker/
 
 [🔗 GitHub Repo](https://github.com/Toddthegod1/CarbonTracker.git)
 
-<!-- ![Overview](/assets/img/projects/carbon-tracker/overview.png)
-<!-- ![UI](/assets/img/projects/carbon-tracker/ui.png)
+<!-- ![Overview](/assets/img/projects/carbon-tracker/overview.png)  -->
+<!-- ![UI](/assets/img/projects/carbon-tracker/ui.png)  -->

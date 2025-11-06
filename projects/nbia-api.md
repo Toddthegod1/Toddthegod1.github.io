@@ -9,4 +9,4 @@ permalink: /projects/nbia-api/
 
 Link: https://cbiit.github.io/NBIA-TCIA/#/
 
-<!-- ![Swagger](/assets/img/projects/nbia-api/swagger.png)
+<!-- ![Swagger](/assets/img/projects/nbia-api/swagger.png)  -->

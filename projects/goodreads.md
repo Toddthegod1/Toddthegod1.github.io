@@ -9,4 +9,4 @@ permalink: /projects/goodreads/
 
 [🔗 Notebook / Repo](https://github.com/Toddthegod1/GoodreadsWebscraping.git)
 
-<!-- ![Chart](/assets/img/projects/goodreads/chart.png)
+<!-- ![Chart](/assets/img/projects/goodreads/chart.png)  -->
