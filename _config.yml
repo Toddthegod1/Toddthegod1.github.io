@@ -213,6 +213,8 @@ exclude:
   - "*.config.js"
   - "package*.json"
 
+## Disable jekyll-archives to prevent generation of /tags/ and /categories/ pages
+# If you later want archive pages back, uncomment and configure below:
 # jekyll-archives:
 #   enabled: [categories, tags]
 #   layouts:
