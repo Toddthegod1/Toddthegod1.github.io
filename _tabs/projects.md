@@ -25,4 +25,4 @@ order: 2
 
 ### 3 VM Project – Personal Finance Tracker  
 A modular personal-finance app deployed with three VMs.  
-[Read more →](/projects/3vmprojectpublic/) · [GitHub]
+[Read more →](/projects/3vmprojectpublic/) 
