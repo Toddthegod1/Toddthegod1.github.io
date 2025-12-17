@@ -14,5 +14,5 @@ Hey I’m **Todd Klinger**, a CS & Data Analytics student at Dickinson College w
 - Casually watching sports (NFL, NBA, MLB)
 - Learning by watching random Youtube videos with topics ranging from computer science to sports to philosophy to politics to economics
 - Playing video games
-- Travelling
+- Traveling
 - Hiking
