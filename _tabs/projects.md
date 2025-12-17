@@ -4,6 +4,13 @@ icon: fas fa-code
 order: 2
 ---
 
+## College Decider App (University Swipe)
+- **Stack:** HTML, CSS, JavaScript
+- **What it does:** An interactive app to help students swipe through and decide on universities.
+- **Notes:** 
+- **Highlights:** User-friendly interface for college selection.
+[Read more →](/projects/university-swipe/)
+
 ## Carbon Tracker (AWS, Python, RDS)
 - **Stack:** AWS EC2, RDS (PostgreSQL), Python, Gunicorn, HTML/CSS
 - **What it does:** Tracks carbon-output events and visualizes trends.
