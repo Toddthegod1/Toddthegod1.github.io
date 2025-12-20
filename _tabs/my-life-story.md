@@ -4,8 +4,6 @@ icon: fas fa-book
 order: 5
 ---
 
-# My Life Story
-
 This is where I share my personal journey, experiences, and the story behind my interests and career path.
 
 I was raised in a Washington, DC suburb called Olney, Maryland, a town with a population of around 40,000. Throughout elementary and middle school, I developed a strong interest in console video games, while also staying very active. I was also deeply into YouTube from a young age and created hundreds of videos between the ages of five and eight, recording gameplay or acting out fictional stories using toys for a small audience. I was heavily inspired by YouTubers who created game walkthroughs and narrative content.
