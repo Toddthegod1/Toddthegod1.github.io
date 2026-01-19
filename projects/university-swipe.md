@@ -1,6 +1,7 @@
 ---
 title: College Decider App
 layout: page
+permalink: /projects/university-swipe/
 ---
 
 **Stack:** HTML, CSS, React, Firebase  
