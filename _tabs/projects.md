@@ -9,7 +9,7 @@ order: 2
 - **What it does:** An interactive app to help students swipe through and decide on universities.
 - **Notes:** 
 - **Highlights:** User-friendly interface for college selection.
-[Read more →](/projects/university-swipe/)
+[Read more →](https://github.com/Toddthegod1/CollegeDeciderApp.git)
 
 ## Carbon Tracker (AWS, Python, RDS)
 - **Stack:** AWS EC2, RDS (PostgreSQL), Python, Gunicorn, HTML/CSS
