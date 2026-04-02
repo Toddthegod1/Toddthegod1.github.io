@@ -4,7 +4,9 @@ icon: fas fa-code
 order: 2
 ---
 
-<div id="projects">
+<div id="projects"></div>
+
+<!-- Ensure this is at the top of the projects tab -->
 
 ## Projects
 
