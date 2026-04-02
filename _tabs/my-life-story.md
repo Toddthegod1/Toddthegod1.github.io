@@ -1,6 +1,6 @@
 ---
-title: My Life Story
-icon: fas fa-book
+title: About
+icon: fas fa-user
 order: 5
 ---
 

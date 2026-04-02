@@ -5,37 +5,66 @@ order: 2
 ---
 
 ## Voteometer
-- **Stack:** Next.js 16, React 19, TypeScript, Tailwind CSS, Chart.js
-- **What it does:** A decision-support tool that combines personal candidate preference with electability into a single Power Number score.
-- **Highlights:** Polymarket integration for real-world election probabilities, multi-candidate primary modeling, interactive Chart.js visualizations.
+**Stack:** Next.js, React, TypeScript, Tailwind CSS, Chart.js  
+A political decision-support web app that combines personal candidate preference and electability into a single score called the **Power Number**. It includes probability-driven modeling, interactive visualizations, and support for multiple candidate scenarios.
+
+**Highlights**
+- Real-world election probability integration via Polymarket
+- Interactive charts and multi-candidate scenario analysis
+- Clean front-end design deployed on Vercel
+
 [Read more →](/projects/voteometer/)
 
-## College Decider App (University Swipe)
-- **Stack:** HTML, CSS, JavaScript
-- **What it does:** An interactive app to help students swipe through and decide on universities.
-- **Notes:** 
-- **Highlights:** User-friendly interface for college selection.
-[Read more →](/projects/university-swipe/)
+---
 
-## Carbon Tracker (AWS, Python, RDS)
-- **Stack:** AWS EC2, RDS (PostgreSQL), Python, Gunicorn, HTML/CSS
-- **What it does:** Tracks carbon-output events and visualizes trends.
-- **Notes:** Systemd service on EC2, DB init scripts, seed factors, and a clean template for adding entries.
-- **Highlights:** Deployment, observability basics, relational schema design.
+## Carbon Tracker
+**Stack:** AWS EC2, PostgreSQL, Python, Gunicorn, HTML/CSS  
+A cloud-deployed application for tracking carbon-output events and visualizing trends, built with a relational database backend and full deployment infrastructure.
+
+**Highlights**
+- EC2 deployment with systemd service setup
+- PostgreSQL schema design and seed scripts
+- End-to-end cloud deployment experience
+
 [Read more →](/projects/carbon-tracker/)
 
-## NIH NBIA Advanced REST API (OpenAPI/Swagger)
-- **Role:** Wrote/organized the OpenAPI spec and aligned endpoints with NBIA docs.
-- **Why it matters:** Researchers can explore and query the cancer imaging API with an interactive spec.
-- **Highlights:** API UX, consistent schema/params, doc tooling.
+---
+
+## NBIA Advanced REST API
+**Stack:** OpenAPI, Swagger, API documentation  
+Contributed to a structured OpenAPI specification for the NBIA Advanced REST API, helping make a cancer imaging research platform easier to explore and use interactively.
+
+**Highlights**
+- Endpoint and schema organization
+- Improved API usability and documentation quality
+- Research-facing technical communication
+
 [Read more →](/projects/nbia-api/)
 
-## Goodreads Data Scraper & Analysis (R/Python)
-- **What I built:** Scraper for book/ratings metadata; cleaned and analyzed the data for trends.
-- **Skills:** R tidyverse, Python pandas, Jupyter analysis, viz with matplotlib.
-- **Highlights:** Data cleaning pipeline, exploratory analysis, storytelling.
+---
+
+## Goodreads Data Scraper & Analysis
+**Stack:** Python, R, pandas, tidyverse, matplotlib  
+A data project involving scraping, cleaning, and analyzing book and ratings data to uncover patterns and trends.
+
+**Highlights**
+- Data cleaning pipeline built with Selenium and pandas
+- Exploratory analysis and visualization in R and Python
+- Strong mix of data collection and storytelling
+
 [Read more →](/projects/goodreads/)
 
-### 3 VM Project – Personal Finance Tracker  
-A modular personal-finance app deployed with three VMs.  
+---
+
+## University Swipe
+**Stack:** HTML, CSS, JavaScript  
+An interactive app that helps students compare and evaluate universities using a swipe-style interface.
+
+[Read more →](/projects/university-swipe/)
+
+---
+
+## 3 VM Personal Finance Tracker
+A modular personal-finance app deployed across three virtual machines, emphasizing system design and deployment structure.
+
 [Read more →](/projects/3vmprojectpublic/)

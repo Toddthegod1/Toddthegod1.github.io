@@ -16,10 +16,11 @@ timezone: Eastern Time (US & Canada)
 
 title: "Todd Klinger" # the main title
 
-tagline: "Todd's epic skills" # it will display as the subtitle
+tagline: "Computer Science & Data Analytics Student" # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
-  Projects in data, cloud, and applied analytics. NIH NBIA API, Carbon Tracker, and more.
+  Portfolio of Todd Klinger — projects in software engineering, data analytics,
+  cloud deployment, APIs, and applied machine learning.
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
