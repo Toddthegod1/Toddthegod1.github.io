@@ -8,7 +8,7 @@ order: 2
 - **Stack:** Next.js 16, React 19, TypeScript, Tailwind CSS, Chart.js
 - **What it does:** A decision-support tool that combines personal candidate preference with electability into a single Power Number score.
 - **Highlights:** Polymarket integration for real-world election probabilities, multi-candidate primary modeling, interactive Chart.js visualizations.
-[Read more →](/projects/Evoteometer/)
+[Read more →](/projects/voteometer/)
 
 ## College Decider App (University Swipe)
 - **Stack:** HTML, CSS, JavaScript
