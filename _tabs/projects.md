@@ -4,6 +4,8 @@ icon: fas fa-code
 order: 2
 ---
 
+<div id="projects">
+
 ## Voteometer
 - **Stack:** Next.js 16, React 19, TypeScript, Tailwind CSS, Chart.js
 - **What it does:** A decision-support tool that combines personal candidate preference with electability into a single Power Number score.
@@ -39,3 +41,5 @@ order: 2
 ### 3 VM Project – Personal Finance Tracker  
 A modular personal-finance app deployed with three VMs.  
 [Read more →](/projects/3vmprojectpublic/)
+
+</div>
