@@ -6,6 +6,8 @@ order: 2
 
 <div id="projects">
 
+## Projects
+
 ## Voteometer
 - **Stack:** Next.js 16, React 19, TypeScript, Tailwind CSS, Chart.js
 - **What it does:** A decision-support tool that combines personal candidate preference with electability into a single Power Number score.

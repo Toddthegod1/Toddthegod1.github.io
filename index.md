@@ -16,3 +16,9 @@ Hey I’m **Todd Klinger**, a CS & Data Analytics student at Dickinson College w
 - Playing video games
 - Traveling
 - Hiking
+
+<div id="projects">
+
+<!-- Add a placeholder or content for the Projects section -->
+
+</div>
