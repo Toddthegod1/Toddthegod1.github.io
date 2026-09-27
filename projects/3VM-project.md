@@ -18,8 +18,3 @@ Users can record income/expenses, define/manage budgets, and view summaries by c
 Demonstrates full-stack architecture, virtualization & infrastructure design, and deployment best practices — relevant for cloud-computing roles and DevOps-aware engineering positions.
 
 [🔗 GitHub Repository](https://github.com/Toddthegod1/3VMProjectPublic)
-
-<!--
-![Architecture Diagram](/assets/img/projects/3vmprojectpublic/architecture.png)
-![UI Screenshot](/assets/img/projects/3vmprojectpublic/ui.png)
--->

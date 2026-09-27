@@ -4,6 +4,27 @@ icon: fas fa-code
 order: 2
 ---
 
+## Ho Chi Minh City Housing Market Analysis
+**Stack:** Python, pandas, scikit-learn, XGBoost  
+A machine learning term project (team of three) analyzing 2017–2022 residential prices across nine Ho Chi Minh City districts, merged with CPI, population, and spatial data.
+
+**Highlights**
+- Inflation adjustment showed some districts grew ~19–21% in real terms vs. ~38–40% nominal
+- 1-, 7-, and 30-day XGBoost forecasts benchmarked against a naive baseline
+- k-means + PCA clustering that isolated District 7 as a low-price, high-growth outlier
+
+[Read more →](/projects/hcmc-housing/)
+
+---
+
+## Benny: AI Campus Assistant
+**Stack:** Python, web scraping, NLP  
+An AI chatbot, built with a Devil Labs student team, that answers Dickinson-specific questions using scraped and structured campus data. **Winner of Dickinson's Innovation Competition.**
+
+[Read more →](/projects/benny/)
+
+---
+
 ## Voteometer
 **Stack:** Next.js, React, TypeScript, Tailwind CSS, Chart.js  
 A political decision-support web app that combines personal candidate preference and electability into a single score called the **Power Number**. It includes probability-driven modeling, interactive visualizations, and support for multiple candidate scenarios.
@@ -43,28 +64,15 @@ Contributed to a structured OpenAPI specification for the NBIA Advanced REST API
 
 ---
 
-## Goodreads Data Scraper & Analysis
-**Stack:** Python, R, pandas, tidyverse, matplotlib  
-A data project involving scraping, cleaning, and analyzing book and ratings data to uncover patterns and trends.
+## Zulip Open-Source Contribution *(in progress)*
+**Stack:** Python, Django, Git  
+A senior seminar team of four contributing to Zulip, a large open-source team chat platform. Currently setting up, learning the codebase, and choosing issues.
 
-**Highlights**
-- Data cleaning pipeline built with Selenium and pandas
-- Exploratory analysis and visualization in R and Python
-- Strong mix of data collection and storytelling
-
-[Read more →](/projects/goodreads/)
+[Read more →](/projects/zulip/)
 
 ---
 
-## University Swipe
-**Stack:** HTML, CSS, JavaScript  
-An interactive app that helps students compare and evaluate universities using a swipe-style interface.
-
-[Read more →](/projects/university-swipe/)
-
----
-
-## 3 VM Personal Finance Tracker
-A modular personal-finance app deployed across three virtual machines, emphasizing system design and deployment structure.
-
-[Read more →](/projects/3vmprojectpublic/)
+## Other Projects
+- **[Goodreads Scraper & Analysis](/projects/goodreads/)**: scraped 1,000+ books with Selenium, then cleaned and analyzed ratings in Python and R
+- **[University Swipe](/projects/university-swipe/)**: a React Native (Expo) and Firebase app that lets students swipe through universities to compare them
+- **[3 VM Personal Finance Tracker](/projects/3vmprojectpublic/)**: a personal-finance app split across database, API, and web server VMs

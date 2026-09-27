@@ -20,4 +20,8 @@ Today, I am highly active in college sports clubs, especially volleyball and bad
 
 # Lessons Learned From My Life
 
-While I am only twenty years old at the time of writing, I have already learned a great deal. Through table tennis, I learned how to perform under pressure, handle disappointment even after putting in effort, and remain determined in difficult situations. Just as importantly, I learned that it is okay to let go. I don’t have to be defined by a single pursuit — I can be someone who values multiple interests, from sports and travel to learning and creation. Allowing myself the freedom to explore has been one of the most important lessons of my life!
+I'm still early in my career, but I have already learned a great deal. Through table tennis, I learned how to perform under pressure, handle disappointment even after putting in effort, and remain determined in difficult situations. Just as importantly, I learned that it is okay to let go. I don’t have to be defined by a single pursuit — I can be someone who values multiple interests, from sports and travel to learning and creation. Allowing myself the freedom to explore has been one of the most important lessons of my life!
+
+# What I'm Looking For
+
+I graduate from Dickinson in May 2027 and am looking for data science and software engineering roles, especially ones where I can build real systems that turn data into decisions. If that sounds like your team, I'd love to hear from you on [LinkedIn](https://www.linkedin.com/in/todd-klinger-35b576269/) or by [email](mailto:toddjek@icloud.com).
