@@ -28,7 +28,7 @@ social:
 # Visitor analytics (https://www.goatcounter.com). Put your GoatCounter code here,
 # e.g. "toddklinger" for toddklinger.goatcounter.com. Leave empty to turn off.
 # Only counts visits on the live site, never local previews.
-goatcounter:
+goatcounter: toddklinger
 
 collections:
   projects:
