@@ -8,11 +8,15 @@ summary: An AI assistant I'm building for Dickinson College that answers Dickins
 stack: [Python, Web scraping, NLP]
 ---
 
-## What it is
+## Overview
+Benny is an AI-powered chatbot that answers Dickinson-specific student questions. I'm building it with a student team as an AI Software Developer with Devil Labs at Dickinson College.
 
-Benny is an AI campus assistant I'm currently building for Dickinson College as an AI Software Developer with Devil Labs. Students can ask it Dickinson-specific questions (offices, services, policies, campus life) and get a direct answer instead of digging through dozens of college web pages.
+## Problem
+General-purpose chatbots don't know the details of a specific campus, so they give vague or wrong answers about things like offices, services, and policies. Students need answers grounded in their own college's information.
 
-## My role
+## What I'm Building
+- Scraping pipelines that collect and structure Dickinson-specific data
+- An NLP-powered chatbot that draws on that structured data to give accurate, campus-specific answers
 
-- Co-building the chatbot end to end
-- Designing the scraping pipelines that collect campus information and structure it so the NLP layer can answer from it reliably
+## What I've Learned So Far
+How much of a chatbot's usefulness comes from the data behind it: clean, well-structured source data matters as much as the model.

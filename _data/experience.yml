@@ -5,10 +5,10 @@
   dates: Jan 2026 – Present
   current: true
   points:
-    - Built AI-assisted Python pipelines that turn Qualtrics survey exports into automated post-course, alumni, and climate reports, cutting report-building time from ~12 hours to ~8 minutes.
-    - Analyzed wargame data from 40+ simulations to surface troop movement and engagement patterns, with turn-by-turn visualizations of battlefield dynamics.
-    - Designed multi-year trend indicators and standardized report templates for senior leadership.
-    - Built and deployed an interactive HTML/JavaScript dashboard that combines alumni roster and survey data, with network-graph and career-outcome views for the PKSOI internship program.
+    - Built AI-assisted Python pipelines that turn Qualtrics survey exports into automated, formatted Word reports (post-course, alumni, and faculty/staff climate surveys), cutting average report-building time from ~12 hours to ~8 minutes.
+    - Parsed raw game logs from 40+ seminar wargames (resident and distance-education students) into one analysis-ready dataset, then mapped troop movement and engagement patterns with turn-by-turn movement flows and arrival/departure heatmaps.
+    - Redesigned student achievement report templates with standardized branding, color-coded indicators, and multi-year trend arrows for leadership review.
+    - Built and deployed an interactive HTML/JavaScript alumni dashboard for the PKSOI internship program, with a force-simulation bubble chart and career/employer breakdowns.
 
 - org: Dickinson College
   role: AI Software Developer
@@ -34,4 +34,5 @@
   location: Bethesda, MD
   dates: May 2025 – Jul 2025
   points:
-    - Designed OpenAPI specifications and schemas for biomedical imaging APIs, improving endpoint structure and documentation for external researchers and developers.
+    - Authored an OpenAPI 3.0 specification for the NBIA Advanced REST API, a public cancer imaging archive, organizing its endpoints, parameters, and schemas.
+    - Deployed an interactive Swagger UI so researchers can explore and test endpoints in the browser instead of reading static docs.

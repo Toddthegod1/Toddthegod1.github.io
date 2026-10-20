@@ -432,3 +432,9 @@ p { text-wrap: pretty; }
   transition: opacity 0.2s, transform 0.2s, background 0.15s;
 }
 .to-top.show { opacity: 1; transform: none; pointer-events: auto; }
+
+/* ---------- Figures in write-ups ---------- */
+
+.prose p:has(> img) { margin: 1.75em 0; }
+.prose img { border-radius: 12px; border: 1px solid var(--border); background: #fff; }
+.prose p > img + em { display: block; margin-top: 10px; font-size: 0.88rem; font-style: normal; color: var(--muted); text-align: center; }

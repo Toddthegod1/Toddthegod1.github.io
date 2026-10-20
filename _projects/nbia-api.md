@@ -10,16 +10,20 @@ links:
   - { label: View the API docs, url: "https://cbiit.github.io/NBIA-TCIA/", icon: external }
 ---
 
-## Context
+## Overview
+The National Biomedical Imaging Archive (NBIA) is a public cancer imaging repository maintained by the NIH. This project involved authoring and organizing a structured OpenAPI specification for the NBIA Advanced REST API, making it possible for researchers to explore and test endpoints interactively through Swagger UI rather than reading static documentation.
 
-The NBIA (National Biomedical Imaging Archive) hosts cancer imaging data used by researchers around the world. During my summer 2025 internship at the NIH, I worked on the specification for its Advanced REST API.
+## Problem
+The NBIA Advanced REST API provides access to a large archive of cancer imaging data, but its documentation was not structured in a way that allowed interactive exploration. Researchers who wanted to understand available endpoints, required parameters, and response schemas had to piece together information from scattered sources.
 
-## What I did
+## What I Built
+- A complete OpenAPI 3.0 YAML specification covering the NBIA Advanced REST API endpoints
+- Organized endpoint groupings with consistent parameter and schema definitions
+- Alignment between the spec and the official NBIA documentation
+- An interactive Swagger UI deployment that lets users explore and test the API directly in the browser
 
-- Wrote and organized the **OpenAPI spec**, aligning every endpoint with the official NBIA documentation
-- Standardized schemas and parameters so endpoints behave consistently
-- Set up the spec so researchers can explore and try endpoints interactively through Swagger
+## Challenges
+The main challenge was ensuring consistency across a large number of endpoints — matching parameter names, types, and descriptions to the actual API behavior. API documentation work requires careful attention to detail and the ability to read and interpret existing technical documentation accurately.
 
-## Why it matters
-
-A clear, interactive spec lowers the barrier for researchers and developers who want to query cancer imaging data programmatically.
+## Outcome
+The resulting specification makes the NBIA Advanced REST API significantly easier to explore for researchers working with cancer imaging data. This project sharpened my understanding of API design principles, OpenAPI conventions, and what makes documentation useful in practice.

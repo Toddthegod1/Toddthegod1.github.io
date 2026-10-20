@@ -12,14 +12,23 @@ links:
   - { label: Demo video, url: "https://youtu.be/499npzav4D0", icon: play }
 ---
 
-## The idea
+## Overview
+Voteometer is a political decision-support web app that helps voters choose the best candidate by combining personal preference with real-world electability into a single score — the **Power Number**. Instead of asking "Who do I like best?" or "Who can actually win?", Voteometer answers both questions at once and surfaces the candidate with the best shot at delivering your preferred outcome.
 
-Most voters weigh two questions: *who do I like?* and *who can actually win?* Voteometer answers both at once. You rate candidates, answer a few head-to-head matchup questions, and the app combines your preferences with a probabilistic model of electability to rank every candidate by a single **Power Number**.
+## Problem
+Voters in multi-candidate primaries often face a dilemma: their favorite candidate may have little chance of winning the general election, while a more electable candidate may not align well with their values. Existing tools address preference or electability in isolation but not both together.
 
-## Highlights
+## What I Built
+- A rating system where users score each candidate on a -10 to 10 preference scale
+- Head-to-head matchup questions to surface relative preferences
+- Integration with **Polymarket** to pull live market probabilities for general-election matchups
+- Multi-candidate primary modeling with automatic question generation
+- A Power Number formula that weights preference against win probability
+- Interactive Chart.js visualizations showing score breakdowns and comparisons
+- Full deployment on Vercel
 
-- Rate candidates on a −10 to 10 scale and answer generated head-to-head matchup questions
-- Pulls real-world market probabilities from **Polymarket** for general-election matchups
-- Models multi-candidate primaries and generates the questions automatically
-- Interactive charts built with Chart.js
-- Full-stack Next.js + Prisma app, deployed on Vercel
+## Challenges
+The trickiest part was designing the Power Number formula so that it felt intuitive — a candidate you rate 10/10 with a 5% win chance should score lower than one you rate 7/10 with a 60% win chance. Tuning the weighting to feel fair across a range of scenarios required several iterations of testing and user feedback.
+
+## Outcome
+Voteometer is fully live and usable. Building it deepened my understanding of TypeScript, data modeling, and how to translate an abstract idea into a working product with a clean, usable interface.

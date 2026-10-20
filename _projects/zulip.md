@@ -9,11 +9,15 @@ links:
   - { label: Zulip on GitHub, url: "https://github.com/zulip/zulip", icon: github }
 ---
 
-## About the project
+## Overview
+For my senior seminar at Dickinson (COMP 491/492), I'm part of a four-person team contributing to [Zulip](https://zulip.com/), a large open-source team chat platform built with Python and Django.
 
-[Zulip](https://zulip.com/) is a large, widely used open-source team chat platform with an active contributor community and a rigorous code review process.
+## Where It Stands
+- Set up the Zulip development environment
+- Studying the codebase and the project's contribution guide
+- Choosing issues to work on through Zulip's issue tracker and code review process
 
-## What we're doing
+I'll update this page with links to pull requests as they're merged.
 
-- Set up the Zulip development environment and learned the codebase's conventions
-- Working through the project's issue tracker and code review process toward merged contributions as a four-person team
+## Why It Matters
+Working in a large, established codebase with real maintainers is a different skill from building projects from scratch: reading unfamiliar code, following a project's conventions, and getting changes through review.
