@@ -1,5 +1,12 @@
 (function () {
   var root = document.documentElement;
+
+  // Remove any offline-cache service worker left over from the old site
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.getRegistrations().then(function (regs) {
+      regs.forEach(function (r) { r.unregister(); });
+    }).catch(function () {});
+  }
   var darkQuery = matchMedia('(prefers-color-scheme: dark)');
 
   // ---- Theme toggle: flips light/dark and remembers the choice ----
