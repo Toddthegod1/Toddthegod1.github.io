@@ -1,19 +1,25 @@
 ---
 title: Voteometer
-layout: page
-permalink: /projects/voteometer/
+kind: Full-stack web app
+year: 2026
+order: 1
+featured: true
+summary: A decision-support tool that blends how much you like each candidate with how likely they are to win, producing a single "Power Number" for who to vote for.
+stack: [Next.js, TypeScript, React, Prisma, Tailwind CSS, Chart.js, Vercel]
+links:
+  - { label: Live app, url: "https://voteometer.vercel.app/", icon: external }
+  - { label: GitHub, url: "https://github.com/Toddthegod1/Voteometer", icon: github }
+  - { label: Demo video, url: "https://youtu.be/499npzav4D0", icon: play }
 ---
 
-**Stack:** Next.js 16, React 19, TypeScript, Tailwind CSS, Chart.js  
-**What it does:** A decision-support tool that helps voters choose the best candidate by combining personal preference with electability into a single score called the **Power Number**.
+## The idea
 
-Instead of asking "Who do I like?" or "Who can win?", Voteometer answers both at once.
+Most voters weigh two questions: *who do I like?* and *who can actually win?* Voteometer answers both at once. You rate candidates, answer a few head-to-head matchup questions, and the app combines your preferences with a probabilistic model of electability to rank every candidate by a single **Power Number**.
 
-**Highlights:**
-- Rate candidates on a -10 to 10 scale and answer head-to-head matchup questions
-- Integrates with **Polymarket** to pull real-world market probabilities for general-election matchups
-- Multi-candidate primary modeling with automatic question generation
-- Interactive visualizations via Chart.js
-- Deployed on Vercel
+## Highlights
 
-[🔗 GitHub Repo](https://github.com/Toddthegod1/Voteometer) &nbsp;|&nbsp; [🌐 Live App](https://voteometer.vercel.app/) &nbsp;|&nbsp; [🎥 Demo Video](https://youtu.be/499npzav4D0)
+- Rate candidates on a −10 to 10 scale and answer generated head-to-head matchup questions
+- Pulls real-world market probabilities from **Polymarket** for general-election matchups
+- Models multi-candidate primaries and generates the questions automatically
+- Interactive charts built with Chart.js
+- Full-stack Next.js + Prisma app, deployed on Vercel

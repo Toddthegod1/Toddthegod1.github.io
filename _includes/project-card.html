@@ -1,0 +1,14 @@
+{%- assign p = include.project -%}
+<article class="card project-card">
+  <div class="card-top">
+    <span class="kind">{{ p.kind }}</span>
+    {% if p.year %}<span class="year">{{ p.year }}</span>{% endif %}
+  </div>
+  <h3><a class="stretched" href="{{ p.url | relative_url }}">{{ p.title }}</a></h3>
+  <p>{{ p.summary }}</p>
+  {% if p.award %}<p class="award">🏆 {{ p.award }}</p>{% endif %}
+  <ul class="tags">
+    {% for t in p.stack limit: 5 %}<li>{{ t }}</li>{% endfor %}
+  </ul>
+  <span class="card-more">Read more {% include icon.html name='arrow' %}</span>
+</article>

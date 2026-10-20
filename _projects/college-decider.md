@@ -1,13 +1,19 @@
 ---
-title: College Decider App
-layout: page
+title: College Decider
+kind: Mobile app
+order: 8
+summary: A swipe-style app that helps high schoolers decide where to go to college, factoring in the campuses they've actually visited.
+stack: [React Native, Expo, JavaScript, TypeScript]
+links:
+  - { label: GitHub, url: "https://github.com/Toddthegod1/CollegeDeciderApp", icon: github }
 permalink: /projects/university-swipe/
 ---
 
-**Stack:** HTML, CSS, React, Firebase  
-**What it does:** An interactive web app that allows students to swipe through university profiles to help decide on the best college fit.  
-**Highlights:** User-friendly interface, responsive design, data-driven recommendations.
+## The idea
 
-[🔗 GitHub Repo](https://github.com/Toddthegod1/CollegeDeciderApp.git)
+Choosing a college is overwhelming. College Decider turns it into something closer to a dating app: swipe through university profiles, and the app weighs in the schools you've visited in person to help narrow down the best fit.
 
-<!-- ![App Screenshot](/assets/img/projects/university-swipe/screenshot.png)  -->
+## Highlights
+
+- Swipe-based interface for quick, low-friction comparisons
+- Built with React Native and Expo, so it runs on both iOS and Android

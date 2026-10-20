@@ -1,0 +1,8 @@
+- group: Languages
+  items: [Python, Java, JavaScript, TypeScript, SQL, R]
+- group: Data & ML
+  items: [pandas, NumPy, scikit-learn, XGBoost, PyTorch, TensorFlow, Matplotlib, Power BI, Qualtrics]
+- group: Cloud & DevOps
+  items: [AWS EC2, RDS, S3, Docker, Vagrant, Nginx, Gunicorn, Git]
+- group: Web & Testing
+  items: [Next.js, React, Flask, Prisma, OpenAPI / Swagger, Playwright, Selenium, Cypress]

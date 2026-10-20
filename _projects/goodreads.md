@@ -1,12 +1,15 @@
 ---
 title: Goodreads Scraper & Analysis
-layout: page
-permalink: /projects/goodreads/
+kind: Data analysis
+order: 9
+summary: Scraped metadata and ratings for 1,000+ books from Goodreads, then cleaned and analyzed the data for trends.
+stack: [Python, Selenium, pandas, Jupyter, Matplotlib, R]
+links:
+  - { label: GitHub, url: "https://github.com/Toddthegod1/GoodreadsWebscraping", icon: github }
 ---
 
-**Stack:** Python (Selenium, pandas), R (tidyverse), Jupyter  
-**Summary:** Scraped 1000+ books, cleaned data, analyzed ratings & trends.
+## What I built
 
-[🔗 Notebook / Repo](https://github.com/Toddthegod1/CollegeDeciderApp)
-
-<!-- ![Chart](/assets/img/projects/goodreads/chart.png)  -->
+- A scraper that collects book and rating metadata for 1,000+ titles
+- A cleaning pipeline that turns the raw scrape into an analysis-ready dataset
+- Exploratory analysis and visualizations of ratings and trends in Jupyter

@@ -1,0 +1,37 @@
+- org: US Army War College
+  role: Data Analytics Intern
+  team: Office of Institutional Assessment & PKSOI
+  location: Carlisle, PA
+  dates: Jan 2026 – Present
+  current: true
+  points:
+    - Built AI-assisted Python pipelines that turn Qualtrics survey exports into automated post-course, alumni, and climate reports, cutting report-building time from ~12 hours to ~8 minutes.
+    - Analyzed wargame data from 40+ simulations to surface troop movement and engagement patterns, with turn-by-turn visualizations of battlefield dynamics.
+    - Designed multi-year trend indicators and standardized report templates for senior leadership.
+    - Built and deployed an interactive HTML/JavaScript dashboard that combines alumni roster and survey data, with network-graph and career-outcome views for the PKSOI internship program.
+
+- org: Dickinson College
+  role: AI Software Developer
+  team: Devil Labs
+  location: Carlisle, PA
+  dates: 2026 – Present
+  current: true
+  points:
+    - Building Benny, an AI campus assistant that answers Dickinson-specific student questions about offices, services, policies, and campus life.
+    - Designing web-scraping pipelines that collect campus information and structure it so the chatbot can answer reliably.
+
+- org: Dickinson College
+  role: Computer Science Tutor & Data Help Room Assistant
+  location: Carlisle, PA
+  dates: Present
+  current: true
+  points:
+    - Tutor students in COMP 132 (Principles of Object-Oriented Programming) through office hours and lab support on Java, class design, and debugging.
+    - Staff the Data Help Room, helping students across courses with data science concepts, analysis, and code.
+
+- org: National Institutes of Health
+  role: API / OpenAPI Developer
+  location: Bethesda, MD
+  dates: May 2025 – Jul 2025
+  points:
+    - Designed OpenAPI specifications and schemas for biomedical imaging APIs, improving endpoint structure and documentation for external researchers and developers.

@@ -1,14 +1,23 @@
 ---
-title: Carbon Tracker (AWS, Python, RDS)
-layout: page
-permalink: /projects/carbon-tracker/
+title: Carbon Tracker
+kind: Cloud app · AWS
+year: 2025
+order: 6
+summary: A small cloud app for logging resource usage and viewing CO₂-equivalent summaries, deployed across EC2, RDS, and SQS.
+stack: [Python, AWS EC2, RDS (PostgreSQL), SQS, Gunicorn, Nginx]
+links:
+  - { label: GitHub, url: "https://github.com/Toddthegod1/CarbonTracker", icon: github }
 ---
 
-**Stack:** AWS EC2, RDS (PostgreSQL), Python, Gunicorn  
-**What it does:** Tracks carbon-output events and visualizes trends.  
-**Highlights:** systemd service on EC2, DB init/seed scripts, simple analytics.
+## What it does
 
-[🔗 GitHub Repo](https://github.com/Toddthegod1/CarbonTracker.git)
+Carbon Tracker logs carbon-output events (resource usage) and turns them into CO₂e summaries and trends.
 
-<!-- ![Overview](/assets/img/projects/carbon-tracker/overview.png)  -->
-<!-- ![UI](/assets/img/projects/carbon-tracker/ui.png)  -->
+## Architecture
+
+- **App server** on EC2 serving the web UI and API through Gunicorn behind Nginx
+- **Worker** on a second EC2 instance that processes queued jobs from **SQS**
+- **PostgreSQL on RDS** for storage, with init and seed scripts for emission factors
+- Run as `systemd` services, with tests via `pytest`
+
+Built for Cloud Computing (COSC349) during my semester at the University of Otago.

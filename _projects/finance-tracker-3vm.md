@@ -1,25 +1,25 @@
 ---
-title: 3 VM Project – Personal Finance Tracker
-layout: page
+title: 3-VM Personal Finance Tracker
+kind: Infrastructure · Virtualization
+year: 2025
+order: 7
+summary: A personal finance web app split across three virtual machines (database, API, and web server) provisioned with Vagrant.
+stack: [Vagrant, VirtualBox, Node.js, Express, PostgreSQL, Nginx]
+links:
+  - { label: GitHub, url: "https://github.com/Toddthegod1/3VMProjectPublic", icon: github }
 permalink: /projects/3vmprojectpublic/
 ---
 
-**Project:** A personal-finance web application deployed across **three virtual machines**.
+## What it does
 
-**Stack:**
-- **db-vm**: PostgreSQL database storing transactions & budgets  
-- **api-vm**: Node.js + Express REST API handling business logic  
-- **web-vm**: Nginx web server hosting front-end + proxying API  
+Users record income and expenses, set budgets, and see summaries by category along with their net balance.
 
-**What it does:**  
-Users can record income/expenses, define/manage budgets, and view summaries by category and net balance. Everything is designed for modular deployment across separate VMs (ideal for cloud or on-premises setups).
+## Architecture
 
-**Why it matters:**  
-Demonstrates full-stack architecture, virtualization & infrastructure design, and deployment best practices — relevant for cloud-computing roles and DevOps-aware engineering positions.
+| VM | Role |
+| --- | --- |
+| **db-vm** | PostgreSQL database for transactions and budgets |
+| **api-vm** | Node.js + Express REST API with the business logic |
+| **web-vm** | Nginx serving the front end and proxying API calls |
 
-[🔗 GitHub Repository](https://github.com/Toddthegod1/3VMProjectPublic)
-
-<!--
-![Architecture Diagram](/assets/img/projects/3vmprojectpublic/architecture.png)
-![UI Screenshot](/assets/img/projects/3vmprojectpublic/ui.png)
--->
+Splitting the app this way keeps each tier independent, so it can be moved to the cloud or run on-prem with minimal changes. Built for Cloud Computing & Virtualisation (COSC349) at the University of Otago.

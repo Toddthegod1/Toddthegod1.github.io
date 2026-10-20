@@ -1,0 +1,17 @@
+---
+layout: default
+title: Projects
+description: Projects by Todd Klinger in data analytics, machine learning, cloud computing, and full-stack development.
+permalink: /projects/
+---
+{%- assign projects = site.projects | sort: 'order' -%}
+<section class="wrap page">
+  <header class="page-header">
+    <p class="eyebrow">Work</p>
+    <h1>Projects</h1>
+    <p class="lede">Things I've built across data analytics, machine learning, cloud infrastructure, and full-stack development. Click any card for details and links.</p>
+  </header>
+  <div class="card-grid">
+    {% for p in projects %}{% include project-card.html project=p %}{% endfor %}
+  </div>
+</section>

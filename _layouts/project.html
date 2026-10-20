@@ -1,0 +1,47 @@
+---
+layout: default
+---
+{%- assign projects = site.projects | sort: 'order' -%}
+{%- for p in projects -%}
+  {%- if p.url == page.url -%}
+    {%- assign i = forloop.index0 -%}
+  {%- endif -%}
+{%- endfor -%}
+{%- assign prev_i = i | minus: 1 -%}
+{%- assign next_i = i | plus: 1 -%}
+
+<article class="wrap page project-page">
+  <a class="back-link" href="{{ '/projects/' | relative_url }}">{% include icon.html name='arrow-left' %} All projects</a>
+
+  <header class="page-header">
+    <p class="eyebrow">{{ page.kind }}{% if page.year %} · {{ page.year }}{% endif %}</p>
+    <h1>{{ page.title }}</h1>
+    <p class="lede">{{ page.summary }}</p>
+    {% if page.award %}<p class="award">🏆 {{ page.award }}</p>{% endif %}
+    <ul class="tags" aria-label="Tech stack">
+      {% for t in page.stack %}<li>{{ t }}</li>{% endfor %}
+    </ul>
+    {% if page.links %}
+    <div class="btn-row">
+      {% for l in page.links %}
+        <a class="btn {% if forloop.first %}btn-primary{% else %}btn-ghost{% endif %}" href="{{ l.url }}" target="_blank" rel="noopener noreferrer">
+          {% include icon.html name=l.icon %}{{ l.label }}
+        </a>
+      {% endfor %}
+    </div>
+    {% endif %}
+  </header>
+
+  <div class="prose">
+    {{ content }}
+  </div>
+
+  <nav class="pager" aria-label="More projects">
+    {% if prev_i >= 0 %}{% assign p = projects[prev_i] %}
+      <a class="pager-link" href="{{ p.url | relative_url }}"><span>Previous</span>{{ p.title }}</a>
+    {% else %}<span></span>{% endif %}
+    {% if next_i < projects.size %}{% assign p = projects[next_i] %}
+      <a class="pager-link next" href="{{ p.url | relative_url }}"><span>Next</span>{{ p.title }}</a>
+    {% endif %}
+  </nav>
+</article>

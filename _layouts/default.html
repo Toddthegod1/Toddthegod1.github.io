@@ -1,1 +1,71 @@
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+<!doctype html>
+<html lang="{{ site.lang | default: 'en' }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <script>
+    // Apply saved theme before paint to avoid a flash
+    document.documentElement.classList.add('js');
+    try { var t = localStorage.getItem('theme'); if (t) document.documentElement.dataset.theme = t; } catch (e) {}
+  </script>
+  {% seo %}
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='16' fill='%232f54eb'/><text x='50%25' y='54%25' dominant-baseline='middle' text-anchor='middle' font-family='Arial,sans-serif' font-weight='700' font-size='28' fill='white'>TK</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <script src="{{ '/assets/js/main.js' | relative_url }}" defer></script>
+  {%- if site.goatcounter and jekyll.environment == 'production' %}
+  <script data-goatcounter="https://{{ site.goatcounter }}.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
+  {%- endif %}
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="{{ '/' | relative_url }}" aria-label="Todd Klinger, home">
+        <span class="brand-mark">TK</span>
+        <span class="brand-name">Todd Klinger</span>
+      </a>
+
+      <nav class="site-nav" id="site-nav" aria-label="Main">
+        <a href="{{ '/#about' | relative_url }}" data-spy="about">About</a>
+        <a href="{{ '/#experience' | relative_url }}" data-spy="experience">Experience</a>
+        <a href="{{ '/projects/' | relative_url }}" data-spy="projects"{% if page.url contains '/projects/' %} aria-current="page"{% endif %}>Projects</a>
+        <a href="{{ '/my-life-story/' | relative_url }}"{% if page.url == '/my-life-story/' %} aria-current="page"{% endif %}>My Story</a>
+        <a class="nav-cta" href="{{ '/#contact' | relative_url }}" data-spy="contact">Contact</a>
+      </nav>
+
+      <div class="header-actions">
+        <button class="icon-btn" id="theme-toggle" type="button" aria-label="Switch to dark mode" title="Switch to dark mode">
+          {% include icon.html name='moon' %}{% include icon.html name='sun' %}
+        </button>
+        <button class="icon-btn menu-btn" id="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="site-nav">
+          {% include icon.html name='menu' %}
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    {{ content }}
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <p>&copy; {{ site.time | date: '%Y' }} Todd Klinger · Built with Jekyll, hosted on GitHub Pages</p>
+      <div class="footer-links">
+        <a href="https://github.com/{{ site.author.github }}" aria-label="GitHub" target="_blank" rel="noopener noreferrer">{% include icon.html name='github' %}</a>
+        <a href="{{ site.author.linkedin }}" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer">{% include icon.html name='linkedin' %}</a>
+        <a href="mailto:{{ site.author.email }}" aria-label="Email">{% include icon.html name='mail' %}</a>
+      </div>
+    </div>
+  </footer>
+
+  <button class="icon-btn to-top" id="to-top" type="button" aria-label="Back to top" title="Back to top">
+    {% include icon.html name='arrow-up' %}
+  </button>
+</body>
+</html>
