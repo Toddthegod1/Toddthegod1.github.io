@@ -1,6 +1,6 @@
-# toddthegod1.github.io
+# toddklinger.me
 
-Personal portfolio site for Todd Klinger, built with [Jekyll](https://jekyllrb.com/) and deployed to GitHub Pages by the workflow in `.github/workflows/pages-deploy.yml`.
+Personal portfolio site for Todd Klinger (https://toddklinger.me; the old toddthegod1.github.io address redirects there), built with [Jekyll](https://jekyllrb.com/) and deployed to GitHub Pages by the workflow in `.github/workflows/pages-deploy.yml`.
 
 ## Run locally
 
